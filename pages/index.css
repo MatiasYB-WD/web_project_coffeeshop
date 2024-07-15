@@ -55,9 +55,6 @@
   line-height: 20px;
 }
 
-.header__content {
-}
-
 .header__span-accent {
   display: grid;
   font-family: "Noto Serif";
@@ -126,4 +123,16 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.header__footer-pharagraph {
+  margin: 0;
+}
+
+.content {
+  background-color: #0a2850;
+  background-size: cover;
+  background-image: url ("../images/background_recipes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }

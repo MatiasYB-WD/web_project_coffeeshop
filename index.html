@@ -39,7 +39,7 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="#" class="nav__link">Recetas</a>
+              <a href="recipes" class="nav__link">Recetas</a>
             </li>
             <li>
               <a href="#" class="nav__link">Reservar una mesa</a>
@@ -68,17 +68,32 @@
         </div>
         <div class="header__footer">
           <div class="header__footer-hours">
-            <p>Horario:</p>
-            <p>Lunes a Viernes (de 10:00h a 19:00h)</p>
-            <p>Sábados y Domingos (de 11:00h a 18:00h)</p>
+            <p class="header__footer-pharagraph">Horario:</p>
+            <p class="header__footer-pharagraph">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__footer-pharagraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
           </div>
           <div class="header__footer-address">
-            <p>Avenida del Éxito 200, Ciudad Triple Peaks</p>
+            <p class="header__footer-pharagraph">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
           </div>
         </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recetas</h2>
+          <h3 class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
+          </h3>
+          <div class="recipes__videos">
+            <div class="recipes__video-item"></div>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>
