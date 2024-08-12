@@ -3,16 +3,16 @@
   background-color: #0a2850;
   box-sizing: border-box;
   overflow: hidden;
+  padding: 60px 80px;
 }
 
 .footer__content {
   display: flex;
-
-  padding: 60px 80px 108px 80px;
+  justify-content: space-between;
 }
 
 .footer__logo {
-  position: absolute;
+  position: relative;
   z-index: 2;
   display: flex;
   width: 105px;
@@ -38,9 +38,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  position: absolute;
-  top: 60px;
-  right: 80px;
 }
 
 .footer__social-heading {
@@ -85,6 +82,7 @@
 }
 
 .footer__copyright {
+  margin: 0;
   display: flex;
   font-family: "Inter";
   font-style: normal;
@@ -92,6 +90,5 @@
   font-size: 16px;
   line-height: 20px;
   color: white;
-  padding: 108px 80px 60px;
-  margin: 0;
+  margin-top: 108px;
 }
